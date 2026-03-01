@@ -50,6 +50,10 @@ The model predicts fare values for the following ages:
 - 50 years
 
 These predicted values are printed in the output and visualized on a graph.
+![output](age_distribution.png)
+ ![output](age_vs_fare.png) 
+ ![output](fare_prediction.png)
+![output](<Screenshot 2026-03-01 125504.png>)
 
 ---
 
