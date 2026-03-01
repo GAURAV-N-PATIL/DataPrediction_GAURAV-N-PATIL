@@ -22,9 +22,47 @@ I use the publicly accessible Titanic dataset (CSV) from GitHub:
   - **Scatter plot**
   - **Histogram**
 
-#### 📈 Prediction
-- Uses NumPy to compute a **simple prediction** (e.g., trend or regression).
-- Displays the predicted values on a graph.
+## 📈 Prediction Explanation
+
+### What is being predicted?
+The project predicts **Titanic ticket Fare based on passenger Age**.
+
+### Type of prediction
+- Simple **linear regression**
+- Numeric value prediction
+- Implemented using **NumPy**
+
+### Prediction Logic
+The prediction follows a straight-line equation:
+
+Fare = (Slope × Age) + Intercept
+
+This means:
+- Passenger **Age** is the input
+- **Fare** is the output being predicted
+- The model estimates how fare changes as age increases
+
+### Future Predictions
+The model predicts fare values for the following ages:
+- 20 years
+- 30 years
+- 40 years
+- 50 years
+
+These predicted values are printed in the output and visualized on a graph.
+
+---
+
+## ⚠️ Important Note
+This prediction is **exploratory and educational---for DMX project**.  
+It is intended to demonstrate:
+- Data handling
+- Visualization
+- Basic prediction logic
+
+It is **not meant for real-world decision making**.
+
+---
 
 ### 📌 How To Run
 1. Clone this repo
